@@ -1,0 +1,25 @@
+{
+  "cloud_assets": [
+    {
+      "asset_id": "s3-bucket-customer-logs",
+      "type": "S3 Bucket",
+      "public_access": true,
+      "encryption_enabled": false,
+      "environment": "production"
+    },
+    {
+      "asset_id": "iam-admin-user-john",
+      "type": "IAM User",
+      "mfa_enabled": false,
+      "excessive_permissions": true,
+      "environment": "production"
+    },
+    {
+      "asset_id": "rds-database-internal",
+      "type": "RDS Instance",
+      "public_access": false,
+      "encryption_enabled": true,
+      "environment": "production"
+    }
+  ]
+}
